@@ -1,3 +1,55 @@
+# Project Structure
+
+I wanted to separate my "page" level logic and "component" level logic to different folders, to differentiate which files would handle data/abstract logic.
+
+```
+    - Pages
+        - Home
+        - CreatePage
+        - DetailsPage
+        - Favorites
+    - Components (Not yet created, but TBD)
+        - Button
+        - Input
+```
+
+
+# Data Handling 
+
+Most of my "pages" handle fetching and rendering data. The idea was for the pages to retrieve the data, and pass it down to smaller components. However, due to time constraints, I was only able to create the higher "page" level components.
+
+  ## Favorites Data 
+  - I chose the obvious route of handling favorites with localStorage.
+  While saving the id's of the recipes a user favorites into localStorage was easy, retrieving a list of favorite recipes according to the localStorage required a bit more thought. 
+    - My initial thought was to fetch the recipes again, and then filter the recipes by the existing ID's saved in localStorage. However, that seemed dry and repetitive.
+    - I decided to handle it the way I would during a work day, have my backend team handle it. (haha just kidding). 
+      - Seriously though, unless I were to use all the data that was fetched on my favorites pages, I did not want to fetch all the recipes. So I read the JSON-Server docs and found that I could query by ID. Using the ID's I had in my localStorage, I created a queryString to fetch just the recipes I needed.
+
+
+   
+# Future Features
+
+I admit, I started this Case Study very late. With ~2-3hours devoted to this, I did not want to delay in sending this in.
+
+Things I wanted to implement but did not get to: 
+- Styling
+- Modularizing the application, creation and separation of re-usable components.
+- Testing 
+    - I was confused as to what "automated testing" meant in the instructions for this. I was going to implement a very baseline snapshot testing, but that felt like a lazy way out. If given more time, I would love to actually implement a full test suite.
+
+## Summary
+
+This app is very late and very incomplete. I had some personal matters to take care of while juggling my actual work. I do apologize and thank everyone for understanding. If allowed, I'd love to polish this a bit more. 
+
+Thanks for reading.
+
+
+
+<br>
+<br>
+<br>
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +120,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+````

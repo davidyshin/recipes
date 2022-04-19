@@ -1,0 +1,63 @@
+{
+  "recipes": [
+    {
+      "id": "0",
+      "name": "Chocolate Chip Cookie",
+      "creator": "david",
+      "cookingTime": 60,
+      "ingredients": ["chocolate", "chips", "cookies"],
+      "steps": ["mix chocolate, chips, and cookies", "bake"],
+      "creationDate": "Mon Apr 18 2022 21:27:57 GMT-0400 (Eastern Daylight Time)"
+    },
+    {
+      "id": "1",
+      "name": "Spaghetti",
+      "creator": "Helen",
+      "cookingTime": 60,
+      "ingredients": ["lorem", "ipsum"],
+      "steps": ["boil", "pasta"],
+      "creationDate": "Mon Apr 18 2022 21:27:57 GMT-0400 (Eastern Daylight Time)"
+    },
+    {
+      "id": "2",
+      "name": "Burger",
+      "creator": "david",
+      "cookingTime": 80,
+      "ingredients": ["ground beef", "bread"],
+      "steps": ["cook ground beef", "stuff inside bread"],
+      "creationDate": "Mon Apr 18 2022 21:27:57 GMT-0400 (Eastern Daylight Time)"
+    },
+    {
+      "id": "3",
+      "name": "Pizza",
+      "creator": "david",
+      "cookingTime": 100,
+      "ingredients": ["dough", "tomato sauce", "cheese"],
+      "steps": [
+        "create pizza dough",
+        "put tomato sauce",
+        "put in cheese",
+        "bake for 50"
+      ],
+      "creationDate": "Mon Apr 18 2022 21:27:57 GMT-0400 (Eastern Daylight Time)"
+    },
+    {
+      "id": "4",
+      "name": "Hot Dog",
+      "creator": "david",
+      "cookingTime": 30,
+      "ingredients": ["sausage", "bread"],
+      "steps": ["boil sausage", "put sausage in bread"],
+      "creationDate": "Mon Apr 18 2022 21:27:57 GMT-0400 (Eastern Daylight Time)"
+    },
+    {
+      "name": "1",
+      "creator": "2",
+      "cookingTime": "3",
+      "ingredients": ["1", "2", "3"],
+      "steps": ["1", "2", "3"],
+      "creationDate": "Mon Apr 18 2022 21:27:57 GMT-0400 (Eastern Daylight Time)",
+      "id": "53aA8ed"
+    }
+  ]
+}
